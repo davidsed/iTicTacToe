@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7003BD2C15CF8D8B00326BCE /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7003BD2A15CF8D8B00326BCE /* GameViewController.m */; };
+		7003BD2D15CF8D8B00326BCE /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7003BD2B15CF8D8B00326BCE /* GameViewController.xib */; };
+		7003BD3215CF8F7A00326BCE /* iphone-gameboard-bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7003BD3015CF8F7A00326BCE /* iphone-gameboard-bg.jpg */; };
+		7003BD3315CF8F7A00326BCE /* iphone-gameboard-bg@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7003BD3115CF8F7A00326BCE /* iphone-gameboard-bg@2x.jpg */; };
 		7052EDA215CA3EED00C53BD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7052EDA115CA3EED00C53BD2 /* UIKit.framework */; };
 		7052EDA415CA3EED00C53BD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7052EDA315CA3EED00C53BD2 /* Foundation.framework */; };
 		7052EDA615CA3EED00C53BD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7052EDA515CA3EED00C53BD2 /* CoreGraphics.framework */; };
@@ -16,15 +20,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7003BD2915CF8D8B00326BCE /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		7003BD2A15CF8D8B00326BCE /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		7003BD2B15CF8D8B00326BCE /* GameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
+		7003BD3015CF8F7A00326BCE /* iphone-gameboard-bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iphone-gameboard-bg.jpg"; sourceTree = "<group>"; };
+		7003BD3115CF8F7A00326BCE /* iphone-gameboard-bg@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iphone-gameboard-bg@2x.jpg"; sourceTree = "<group>"; };
 		7052ED9D15CA3EED00C53BD2 /* iTicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7052EDA115CA3EED00C53BD2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7052EDA315CA3EED00C53BD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7052EDA515CA3EED00C53BD2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7052EDA915CA3EED00C53BD2 /* iTicTacToe-Info.plist */ = {isa = PBXFileReference; path = "iTicTacToe-Info.plist"; sourceTree = "<group>"; };
+		7052EDA915CA3EED00C53BD2 /* iTicTacToe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTicTacToe-Info.plist"; sourceTree = "<group>"; };
 		7052EDAB15CA3EED00C53BD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7052EDAD15CA3EED00C53BD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7052EDAF15CA3EED00C53BD2 /* iTicTacToe-Prefix.pch */ = {isa = PBXFileReference; path = "iTicTacToe-Prefix.pch"; sourceTree = "<group>"; };
-		7052EDB015CA3EED00C53BD2 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7052EDAF15CA3EED00C53BD2 /* iTicTacToe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iTicTacToe-Prefix.pch"; sourceTree = "<group>"; };
+		7052EDB015CA3EED00C53BD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7052EDB115CA3EED00C53BD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -42,6 +51,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7003BD2F15CF8F7A00326BCE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7003BD3015CF8F7A00326BCE /* iphone-gameboard-bg.jpg */,
+				7003BD3115CF8F7A00326BCE /* iphone-gameboard-bg@2x.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		7052ED9215CA3EED00C53BD2 = {
 			isa = PBXGroup;
 			children = (
@@ -72,8 +90,12 @@
 		7052EDA715CA3EED00C53BD2 /* iTicTacToe */ = {
 			isa = PBXGroup;
 			children = (
+				7003BD2915CF8D8B00326BCE /* GameViewController.h */,
+				7003BD2A15CF8D8B00326BCE /* GameViewController.m */,
+				7003BD2B15CF8D8B00326BCE /* GameViewController.xib */,
 				7052EDB015CA3EED00C53BD2 /* AppDelegate.h */,
 				7052EDB115CA3EED00C53BD2 /* AppDelegate.m */,
+				7003BD2F15CF8F7A00326BCE /* Images */,
 				7052EDA815CA3EED00C53BD2 /* Supporting Files */,
 			);
 			path = iTicTacToe;
@@ -141,6 +163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7052EDAC15CA3EED00C53BD2 /* InfoPlist.strings in Resources */,
+				7003BD2D15CF8D8B00326BCE /* GameViewController.xib in Resources */,
+				7003BD3215CF8F7A00326BCE /* iphone-gameboard-bg.jpg in Resources */,
+				7003BD3315CF8F7A00326BCE /* iphone-gameboard-bg@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +178,7 @@
 			files = (
 				7052EDAE15CA3EED00C53BD2 /* main.m in Sources */,
 				7052EDB215CA3EED00C53BD2 /* AppDelegate.m in Sources */,
+				7003BD2C15CF8D8B00326BCE /* GameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +280,7 @@
 				7052EDB715CA3EED00C53BD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

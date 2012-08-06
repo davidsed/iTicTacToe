@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "GameViewController.h"
+
 
 @implementation AppDelegate
 
@@ -22,9 +24,16 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    UIViewController *viewController1 = [[[GameViewController alloc] initWithNibName:@"GameViewController" bundle:nil] autorelease];
+    
+    // Create navigation controllers and add view controllers
+	gameNavigationController = [[UINavigationController alloc] initWithRootViewController:viewController1];
+    gameNavigationController.title = NSLocalizedString(@"Game Screen", @"Game Screen");
+    
+    self.window.rootViewController = gameNavigationController;
     [self.window makeKeyAndVisible];
     return YES;
+
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

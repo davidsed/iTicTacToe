@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
+{
+    UINavigationController *gameNavigationController;
+}
+
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (nonatomic, retain) UINavigationController *gameNavigationController;
 @end
